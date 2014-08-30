@@ -7,11 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TableViewController.h"
+#import "CoreDataHelper.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+
 @property (strong, nonatomic) UIWindow *window;
 
+@property (nonatomic, retain) TableViewController *tableVC;
+@property (nonatomic, retain) UINavigationController *navigationVC;
+
+@property (nonatomic, strong, readonly) CoreDataHelper *coreDataHelper;
 
 @end
 

@@ -11,6 +11,10 @@
 		EC65603319B1967700A252B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65603219B1967700A252B8 /* AppDelegate.m */; };
 		EC65603519B1967700A252B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC65603419B1967700A252B8 /* Images.xcassets */; };
 		EC65604119B1967700A252B8 /* Project1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65604019B1967700A252B8 /* Project1Tests.m */; };
+		EC65605119B197B700A252B8 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65605019B197B700A252B8 /* TableViewController.m */; };
+		EC65605419B1B3C100A252B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65605319B1B3C100A252B8 /* ViewController.m */; };
+		EC65605619B1D41E00A252B8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC65605519B1D41E00A252B8 /* CoreData.framework */; };
+		EC65605919B1D7F000A252B8 /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65605819B1D7F000A252B8 /* CoreDataHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +37,13 @@
 		EC65603A19B1967700A252B8 /* Project1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC65603F19B1967700A252B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC65604019B1967700A252B8 /* Project1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Project1Tests.m; sourceTree = "<group>"; };
+		EC65604F19B197B700A252B8 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		EC65605019B197B700A252B8 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		EC65605219B1B3C100A252B8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		EC65605319B1B3C100A252B8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		EC65605519B1D41E00A252B8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EC65605719B1D7F000A252B8 /* CoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataHelper.h; sourceTree = "<group>"; };
+		EC65605819B1D7F000A252B8 /* CoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC65605619B1D41E00A252B8 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +68,7 @@
 		EC65602119B1967700A252B8 = {
 			isa = PBXGroup;
 			children = (
+				EC65605519B1D41E00A252B8 /* CoreData.framework */,
 				EC65602C19B1967700A252B8 /* Project1 */,
 				EC65603D19B1967700A252B8 /* Project1Tests */,
 				EC65602B19B1967700A252B8 /* Products */,
@@ -78,6 +91,12 @@
 				EC65603219B1967700A252B8 /* AppDelegate.m */,
 				EC65603419B1967700A252B8 /* Images.xcassets */,
 				EC65602D19B1967700A252B8 /* Supporting Files */,
+				EC65604F19B197B700A252B8 /* TableViewController.h */,
+				EC65605019B197B700A252B8 /* TableViewController.m */,
+				EC65605219B1B3C100A252B8 /* ViewController.h */,
+				EC65605319B1B3C100A252B8 /* ViewController.m */,
+				EC65605719B1D7F000A252B8 /* CoreDataHelper.h */,
+				EC65605819B1D7F000A252B8 /* CoreDataHelper.m */,
 			);
 			path = Project1;
 			sourceTree = "<group>";
@@ -206,6 +225,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC65603319B1967700A252B8 /* AppDelegate.m in Sources */,
+				EC65605119B197B700A252B8 /* TableViewController.m in Sources */,
+				EC65605419B1B3C100A252B8 /* ViewController.m in Sources */,
+				EC65605919B1D7F000A252B8 /* CoreDataHelper.m in Sources */,
 				EC65603019B1967700A252B8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
